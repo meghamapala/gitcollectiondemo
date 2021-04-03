@@ -22,6 +22,7 @@ public class HelloWorld {
 			Entry<Character, Integer> i=e.next();
 		    System.out.println("key is "+ i.getKey()+" "+"value is "+ i.getValue());
 		    System.out.println("HashMap is Interface");
+		    System.out.println("Entry is subclass of map Interface");
 		
 	}
 }}
