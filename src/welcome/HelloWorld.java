@@ -21,6 +21,7 @@ public class HelloWorld {
 		while(e.hasNext()) {
 			Entry<Character, Integer> i=e.next();
 		    System.out.println("key is "+ i.getKey()+" "+"value is "+ i.getValue());
+		    System.out.println("HashMap is Interface");
 		
 	}
 }}
